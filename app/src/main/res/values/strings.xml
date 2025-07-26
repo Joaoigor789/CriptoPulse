@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">CryptoPulse</string>
     <string name="pre_o">Preço</string>
+    <string name="r_0_00">R$ 0,00</string>
+    <string name="pr_xima_atualiza_o_em_30_s">Próxima atualização em: 10 s</string>
 </resources>

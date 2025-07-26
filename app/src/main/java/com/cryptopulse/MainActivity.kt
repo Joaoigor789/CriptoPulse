@@ -127,9 +127,19 @@ class MainActivity : AppCompatActivity() {
 
     private fun setupGraph() {
         series = LineGraphSeries()
+
+        // Personalização da linha do gráfico
+        series.color = android.graphics.Color.parseColor("#FF5722") // laranja vibrante
+        series.thickness = 8
+        series.isDrawDataPoints = true
+        series.dataPointsRadius = 10f
+        series.isDrawBackground = true
+        series.backgroundColor = android.graphics.Color.argb(50, 255, 87, 34) // fundo laranja suave
+
         binding.graph.removeAllSeries()
         binding.graph.addSeries(series)
 
+        // Configurações do gráfico
         binding.graph.viewport.isScrollable = true
         binding.graph.viewport.isScalable = true
         binding.graph.viewport.isXAxisBoundsManual = true
@@ -138,11 +148,26 @@ class MainActivity : AppCompatActivity() {
         binding.graph.viewport.setMinX(0.0)
         binding.graph.viewport.setMaxX(10.0)
         binding.graph.viewport.setMinY(0.0)
-        binding.graph.viewport.setMaxY(100000.0) // limite alto para bitcoin
+        binding.graph.viewport.setMaxY(100000.0)
 
         binding.graph.gridLabelRenderer.horizontalAxisTitle = "Tempo"
-        binding.graph.gridLabelRenderer.verticalAxisTitle = "Preço (USD)"
+        binding.graph.gridLabelRenderer.verticalAxisTitle = "Preço (BRL)"
     }
+
+    private fun updateUI(price: Double) {
+        runOnUiThread {
+            val formattedPrice = "R$ ${String.format("%.2f", price)}"
+            binding.priceText.text = formattedPrice
+
+            // Animação 3D ao atualizar
+            binding.priceText.animate()
+                .rotationXBy(360f)
+                .setDuration(600)
+                .start()
+        }
+    }
+
+
 
     private fun resetGraph() {
         runOnUiThread {
