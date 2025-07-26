@@ -1,5 +1,6 @@
 # 📱 B# 📱 Bitcoin Price Tracker ![Kotlin](https://img.shields.io/badge/Kotlin-1.9-blue?logo=kotlin) ![Android](https://img.shields.io/badge/Android-7--14-brightgreen?logo=android) ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow) ![License](https://img.shields.io/badge/license-MIT-lightgrey)
-![Stars](https://img.shields.io/badge/stars-⭐%2015-blue) 
+![GitHub stars](https://img.shields.io/github/stars/Joaoigor789/CriptoPulse?style=social)
+
 ![Views](https://img.shields.io/badge/visualiza%C3%A7%C3%B5es-3k-lightblue)
 
 
