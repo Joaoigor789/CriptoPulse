@@ -1,4 +1,5 @@
-# 📱 Bitcoin Price Tracker ![Kotlin](https://img.shields.io/badge/Kotlin-1.9-blue?logo=kotlin) ![Android](https://img.shields.io/badge/Android-(7-12)-brightgreen?logo=android) ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow) ![License](https://img.shields.io/badge/license-MIT-lightgrey)
+# 📱 B# 📱 Bitcoin Price Tracker ![Kotlin](https://img.shields.io/badge/Kotlin-1.9-blue?logo=kotlin) ![Android](https://img.shields.io/badge/Android-7--12-brightgreen?logo=android) ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow) ![License](https://img.shields.io/badge/license-MIT-lightgrey)
+
 
 Aplicativo Android simples desenvolvido em **Kotlin** que busca e exibe o preço atual do Bitcoin diretamente de sites  via Web Scraping. Agora com **design 3D e totalmente responsivo**, oferecendo uma experiência visual moderna e adaptável a diferentes dispositivos.
 
