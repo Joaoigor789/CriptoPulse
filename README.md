@@ -23,8 +23,4 @@ Aplicativo Android simples desenvolvido em **Kotlin** que busca e exibe o preço
 
 ---
 
-## 🔧 Instalação e Execução
 
-1. **Clone o repositório:**
-   ```bash
-   git clone https://github.com/Joaoigor789/bitcoin-price-tracker.git
